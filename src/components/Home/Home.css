@@ -1,0 +1,6 @@
+.Background {
+    background: url("../../assets/Background/background.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
