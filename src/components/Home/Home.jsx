@@ -23,7 +23,7 @@ export default function Home () {
                             ]}
                             speed={50}
                             className={`
-                            text-white text-[100px] lg:text-[60px] font-primary font-semibold
+                            text-[100px] lg:text-[60px] font-primary font-semibold
                             text-transparent bg-clip-text bg-gradient-to-r from-[#29ACD7] to-[#3C82E8]  
                             `}
                             wrapper='span'
