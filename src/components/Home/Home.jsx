@@ -59,7 +59,7 @@ export default function Home () {
                                             `}
                                             >
                                                 <img className="pb-0.5 w-[60px] lg:w-[20px]" src={iconTabeladeprecos} alt=""></img>
-                                                    <span className='text-[38px] lg:text-[14px] text-[#051D34] font-primary font-extrabold'>Tabela de Preços</span>
+                                                    <span className='text-[38px] lg:text-[14px] text-[#051D34] font-primary font-extrabold'>Consultar Preços</span>
                                         </button></a>
                             
                             <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20quero%20solicitar%20um%20orçamento!'
