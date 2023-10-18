@@ -49,7 +49,7 @@ export default function Home () {
                                                     <span className='text-[38px] lg:text-[14px] text-[#051D34] font-primary font-extrabold'>Portfólio</span>
                                         </button></a>
                             
-                            <a href='https://www.instagram.com/jc.desenvolvedor/'
+                            <a href='https://www.instagram.com/p/CyiuQ6ouxjm/?igshid=MzRlODBiNWFlZA%3D%3D'
                                 target='_blank'
                                 rel="noopener noreferrer">
                                         <button className={`
