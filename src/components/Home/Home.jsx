@@ -72,7 +72,7 @@ export default function Home () {
                                             `}
                                             >
                                                 <img className="pb-0.5 w-[60px] lg:w-[20px]" src={iconOrcamento} alt="iconeMala"></img>
-                                                    <span className='text-[38px] lg:text-[14px] text-[#051D34] font-primary font-extrabold'>Solicite Orçamento</span>
+                                                    <span className='text-[38px] lg:text-[14px] text-[#051D34] font-primary font-extrabold'>Solicitar Orçamento</span>
                                         </button></a>
                         </div>
             </div>
