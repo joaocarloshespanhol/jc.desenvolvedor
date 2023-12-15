@@ -30,7 +30,7 @@ export default function Home () {
                             repeat={Infinity}
                             />
                         <span className="text-[24px] lg:text-[14px] font-primary font-medium">
-                            Solicite um orçamento pra hoje mesmo, respondemos em <b>30 min!</b>
+                            Solicite um orçamento pra hoje mesmo, respondemos em <b>instantes!</b>
                         </span>
                     </div>
 
