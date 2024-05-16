@@ -6,6 +6,7 @@ import iconPortfolio from '../../assets/Icons/iconPortfolio.svg';
 import iconTabeladeprecos from '../../assets/Icons/iconTabeladeprecos.svg';
 import iconOrcamento from '../../assets/Icons/iconOrcamento.svg';
 import iconMais from '../../assets/Icons/iconmais.png';
+import iconcheck from '../../assets/Icons/iconcheck.svg';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Home () {
@@ -100,21 +101,158 @@ export default function Home () {
                         
                     </div>
             <div className="mt-10">
-                <div className="flex flex-col justify-center items-center lg:flex-row gap-2">
+                <div className="flex flex-col justify-center items-center lg:flex-row gap-8">
 
-                <div className="w-[720px] h-[920px] bg-white rounded-3xl ">
-                    <div>
+                <div className="w-[720px] h-[920px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
+                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
+                        <div className="text-[#051D34] font-extrabold mt-7">
+                            Identidade Visual
+                        </div>
+                        <div className="mt-20 text-[98px] font-extrabold">
+                            <span className="text-[48px]">R$</span> 239,99
+                        </div>
+                        <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Logotipo (Desenvolvimento de 2 opções)
 
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Sublogotipo (Marca d’agua)
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Paleta de cores
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Tipografia
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Papel timbrado
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Cartão de visita
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Rodadas de revisão e ajustes
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Arquivos finais em formato vetorial
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
+                <div className="w-[720px] h-[920px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
+                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
+                        <div className="text-[#051D34] font-extrabold mt-7">
+                            Identidade Visual
+                        </div>
+                        <div className="mt-20 text-[98px] font-extrabold">
+                            <span className="text-[48px]">R$</span> 239,99
+                        </div>
+                        <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Logotipo (Desenvolvimento de 2 opções)
 
-                <div className="w-[720px] h-[920px] bg-white rounded-3xl shadow-2xl">
-                </div>
-                <div className="w-[720px] h-[920px] bg-white rounded-3xl ">
-                </div>
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Sublogotipo (Marca d’agua)
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Paleta de cores
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Tipografia
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Papel timbrado
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Cartão de visita
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Rodadas de revisão e ajustes
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Arquivos finais em formato vetorial
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
+                <div className="w-[720px] h-[920px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
+                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
+                        <div className="text-[#051D34] font-extrabold mt-7">
+                            Identidade Visual
+                        </div>
+                        <div className="mt-20 text-[98px] font-extrabold">
+                            <span className="text-[48px]">R$</span> 239,99
+                        </div>
+                        <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Logotipo (Desenvolvimento de 2 opções)
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Sublogotipo (Marca d’agua)
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Paleta de cores
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Tipografia
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Papel timbrado
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Cartão de visita
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Rodadas de revisão e ajustes
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Arquivos finais em formato vetorial
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             </div>
         </section>
