@@ -156,7 +156,7 @@ export default function Home () {
                 <div className="w-[720px] h-[920px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
                     <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
                         <div className="text-[#051D34] font-extrabold mt-7">
-                            Identidade Visual
+                            Site ou Landing Page
                         </div>
                         <div className="mt-20 text-[98px] font-extrabold">
                             <span className="text-[48px]">R$</span> 239,99
@@ -206,7 +206,7 @@ export default function Home () {
                 <div className="w-[720px] h-[920px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
                     <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
                         <div className="text-[#051D34] font-extrabold mt-7">
-                            Identidade Visual
+                            Identidade Visual + Site
                         </div>
                         <div className="mt-20 text-[98px] font-extrabold">
                             <span className="text-[48px]">R$</span> 239,99
