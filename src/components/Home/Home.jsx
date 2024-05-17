@@ -14,11 +14,11 @@ export default function Home () {
         <section id="" className='p-2 mt-32'>
             <div className=''>
                 <img className="w-[520px] lg:w-[280px] xl:w-[320px] mx-auto"  src={Logo} alt="" />
-                    <div className="flex flex-col mt-32 lg:mt-12">
+                    <div className="flex flex-col mt-32 lg:mt-12 p-2">
                         <TypeAnimation  sequence={[
                             'Seja bem vindo',
                             2000,
-                            'Confira os links',
+                            'Escolha o pacote ideal para você',
                             2000,
                             'Seja bem vindo',
                             2000,
@@ -109,7 +109,7 @@ export default function Home () {
                             Identidade Visual
                         </div>
                         <div className="mt-20 text-[98px] font-extrabold">
-                            <span className="text-[48px]">R$</span> 239,99
+                            <span className="text-[48px]">R$</span> 199,99
                         </div>
                         <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
                             <div className="flex text-[24px] gap-4">
@@ -168,7 +168,7 @@ export default function Home () {
                             Identidade Visual + Site
                         </div>
                         <div className="mt-20 text-[98px] font-extrabold">
-                            <span className="text-[48px]">R$</span> 599,99
+                            <span className="text-[48px]">R$</span> 539,99
                         </div>
                         <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
                             <div className="flex text-[24px] gap-4">
@@ -259,7 +259,7 @@ export default function Home () {
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
-                                Site com até 3 páginas
+                                Site para até 3 páginas
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
