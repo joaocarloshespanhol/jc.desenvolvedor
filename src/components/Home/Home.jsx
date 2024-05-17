@@ -11,7 +11,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function Home () {
     return (
-        <section id="" className='p-2 mt-32'>
+        <section id="" className='p-8 mt-20'>
             <div className=''>
                 <img className="w-[520px] lg:w-[280px] xl:w-[320px] mx-auto"  src={Logo} alt="" />
                     <div className="flex flex-col mt-32 lg:mt-12 p-2">
@@ -25,7 +25,7 @@ export default function Home () {
                             ]}
                             speed={50}
                             className={`
-                            text-[100px] lg:text-[60px] font-primary font-semibold
+                            text-[80px] lg:text-[60px] font-primary font-semibold
                             text-transparent bg-clip-text bg-gradient-to-r from-[#29ACD7] to-[#3C82E8]  
                             `}
                             wrapper='span'
@@ -48,7 +48,7 @@ export default function Home () {
                                             >
                                                 
                                                 <img className="pb-0.5 w-[50px] lg:w-[20px]" src={iconPortfolio} alt=""></img>
-                                                    <span className='text-[38px] lg:text-[14px] text-[#051D34] font-primary font-extrabold'>Portfólio</span>
+                                                    <span className='text-[28px] lg:text-[16px] text-[#051D34] font-primary font-semibold'>Portfólio</span>
                                         </button></a>
                             
                             <a href='#pacotes'
@@ -60,7 +60,7 @@ export default function Home () {
                                             `}
                                             >
                                                 <img className="pb-0.5 w-[60px] lg:w-[20px]" src={iconTabeladeprecos} alt=""></img>
-                                                    <span className='text-[38px] lg:text-[14px] text-[#051D34] font-primary font-extrabold'>Consultar Preços</span>
+                                                    <span className='text-[28px] lg:text-[16px] text-[#051D34] font-primary font-semibold'>Consultar Preços</span>
                                         </button></a>
                             
                             <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20quero%20solicitar%20um%20orçamento!'
@@ -73,7 +73,7 @@ export default function Home () {
                                             `}
                                             >
                                                 <img className="pb-0.5 w-[60px] lg:w-[20px]" src={iconOrcamento} alt="iconeMala"></img>
-                                                    <span className='text-[38px] lg:text-[14px] text-[#051D34] font-primary font-extrabold'>Solicitar Orçamento</span>
+                                                    <span className='text-[28px] lg:text-[16px] text-[#051D34] font-primary font-semibold'>Solicitar Orçamento</span>
                                         </button></a>
                         </div>
                         
@@ -292,7 +292,7 @@ export default function Home () {
             <div className="mt-6">
                 <span className="text-[24px] font-primary text-zinc-400">Pagamentos via <b>pix desconto de 5%</b> ou 2x no boleto.</span>
             </div>
-            <div className="mt-10 mb-10">
+            <div className="mt-10 mb-2">
                 <span className="text-[28px] font-primary">Copyright © 2024. Todos os direitos reservados.</span>
             </div>
         </section>
