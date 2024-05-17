@@ -7,6 +7,7 @@ import iconTabeladeprecos from '../../assets/Icons/iconTabeladeprecos.svg';
 import iconOrcamento from '../../assets/Icons/iconOrcamento.svg';
 import iconMais from '../../assets/Icons/iconmais.png';
 import iconcheck from '../../assets/Icons/iconcheck.svg';
+import iconstar from '../../assets/Icons/iconstar.png';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Home () {
@@ -149,7 +150,7 @@ export default function Home () {
                                 Arquivos finais em formato vetorial
                             </div>
                         </div>
-                        <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20quero%20solicitar%20um%20orçamento!'
+                        <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20pacote%20de%20identidade%20visual.'
                                 target='_blank'
                                 rel="noopener noreferrer">
                                         <button className={`
@@ -164,9 +165,16 @@ export default function Home () {
                     </div>
                 <div className="w-[740px] h-[1100px] lg:w-[360px] lg:h-[490px] xl:w-[370px] xl:h-[520px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col hover:-translate-y-1 hover:scale-110 duration-300">
                     <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] lg:h-[60px] font-primary text-[42px] lg:text-[20px]">
-                        <div className="text-[#051D34] font-extrabold mt-7 lg:mt-4">
-                            Identidade Visual + Site
+                        <div className="text-[#051D34] font-extrabold mt-7 lg:mt-4 flex">
+                            <div className="flex gap-2 mx-auto">
+
+                            <span className="">Identidade Visual + Site</span>
+                            <div>
+                            <img className="w-10 h-10 mt-2 lg:w-4 lg:h-4 lg:mt-1" src={iconstar}></img>
+                                </div>
+                            </div>
                         </div>
+                    
                         <div className="mt-20 lg:mt-8 text-[98px] lg:text-[32px] xl:text-[42px] font-extrabold">
                             <span className="text-[48px] lg:text-[12px]">R$</span> 539,99
                         </div>
@@ -211,7 +219,7 @@ export default function Home () {
                                 Rodadas de revisões e ajustes
                             </div>
                         </div>
-                        <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20quero%20solicitar%20um%20orçamento!'
+                        <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20pacote%20de%20identidade%20visual%20e%20site.'
                                 target='_blank'
                                 rel="noopener noreferrer">
                                         <button className={`
@@ -270,7 +278,7 @@ export default function Home () {
                                 Rodadas de revisão e ajustes
                             </div>
                         </div>
-                        <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20quero%20solicitar%20um%20orçamento!'
+                        <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20pacote%20site%20ou%20landing%20page.'
                                 target='_blank'
                                 rel="noopener noreferrer">
                                         <button className={`
