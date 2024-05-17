@@ -138,11 +138,11 @@ export default function Home () {
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
-                                Cartão de visita
+                                Cartão de visitas
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
-                                Rodadas de revisão e ajustes
+                                Rodadas de revisões e ajustes
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
@@ -152,7 +152,7 @@ export default function Home () {
                         <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20quero%20solicitar%20um%20orçamento!'
                                 target='_blank'
                                 rel="noopener noreferrer">
-                        <button className={`
+                                        <button className={`
                                             flex mx-auto mt-10 w-[560px] h-[98px] lg:w-[620px] lg:h-[60px] lg:mx-auto bg-white
                                             rounded-full gap-4 items-center justify-center
                                             hover:-translate-y-1 hover:scale-110 hover:bg-zinc-300 duration-300 shadow-md
@@ -160,110 +160,140 @@ export default function Home () {
                                             >
                                                     <span className='text-[28px] lg:text-[14px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
                                         </button></a>
-                    </div>
-                    </div>
-                
-                <div className="w-[720px] h-[920px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
-                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
-                        <div className="text-[#051D34] font-extrabold mt-7">
-                            Site ou Landing Page
-                        </div>
-                        <div className="mt-20 text-[98px] font-extrabold">
-                            <span className="text-[48px]">R$</span> 239,99
-                        </div>
-                        <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
-                                Logotipo (Desenvolvimento de 2 opções)
-
-                            </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
-                                Sublogotipo (Marca d’agua)
-
-                            </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
-                                Paleta de cores
-
-                            </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
-                                Tipografia
-
-                            </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
-                                Papel timbrado
-                            </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
-                                Cartão de visita
-                            </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
-                                Rodadas de revisão e ajustes
-                            </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
-                                Arquivos finais em formato vetorial
-                            </div>
-
                         </div>
                     </div>
-
-                </div>
-                <div className="w-[720px] h-[920px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
+                <div className="w-[740px] h-[1100px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
                     <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
                         <div className="text-[#051D34] font-extrabold mt-7">
                             Identidade Visual + Site
                         </div>
                         <div className="mt-20 text-[98px] font-extrabold">
-                            <span className="text-[48px]">R$</span> 239,99
+                            <span className="text-[48px]">R$</span> 599,99
                         </div>
                         <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
-                                Logotipo (Desenvolvimento de 2 opções)
+                                Logotipo e Sublogotipo (3 opções)
 
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
-                                Sublogotipo (Marca d’agua)
+                                Paleta de cores e tipografia
 
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
-                                Paleta de cores
+                                Papel timbrado e cartão de visitas
 
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
-                                Tipografia
+                                Site para até 5 páginas
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Design responsivo e moderno
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Pesquisa de referência e conceitos
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Demonstração do Google Analytics
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Otimização para mecanismos de busca
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Rodadas de revisões e ajustes
+                            </div>
+                        </div>
+                        <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20quero%20solicitar%20um%20orçamento!'
+                                target='_blank'
+                                rel="noopener noreferrer">
+                                        <button className={`
+                                            flex mx-auto mt-10 w-[560px] h-[98px] lg:w-[620px] lg:h-[60px] lg:mx-auto bg-white
+                                            rounded-full gap-4 items-center justify-center
+                                            hover:-translate-y-1 hover:scale-110 hover:bg-zinc-300 duration-300 shadow-md
+                                            `}
+                                            >
+                                                    <span className='text-[28px] lg:text-[14px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
+                                        </button></a>
+                        </div>
+                    </div>
+                <div className="w-[720px] h-[1080px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
+                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
+                        <div className="text-[#051D34] font-extrabold mt-7">
+                            Site ou Landing Page
+                        </div>
+                        <div className="mt-20 text-[98px] font-extrabold">
+                            <span className="text-[48px]">R$</span> 399,99
+                        </div>
+                        <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                    Design responsivo e moderno
 
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
-                                Papel timbrado
+                                    Pesquisa de referência e conceitos
+
+
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
-                                Cartão de visita
+                                Integração com redes sociais
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Otimização para mecanismos de busca  
+
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Tags instaladas para métricas
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Site com até 3 páginas
+                            </div>
+                            <div className="flex text-[24px] gap-4">
+                                <img src={iconcheck}></img>
+                                Reuniões para alinhar espectativas
                             </div>
                             <div className="flex text-[24px] gap-4">
                                 <img src={iconcheck}></img>
                                 Rodadas de revisão e ajustes
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
-                                Arquivos finais em formato vetorial
-                            </div>
-
+                        </div>
+                        <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20quero%20solicitar%20um%20orçamento!'
+                                target='_blank'
+                                rel="noopener noreferrer">
+                                        <button className={`
+                                            flex mx-auto mt-10 w-[560px] h-[98px] lg:w-[620px] lg:h-[60px] lg:mx-auto bg-white
+                                            rounded-full gap-4 items-center justify-center
+                                            hover:-translate-y-1 hover:scale-110 hover:bg-zinc-300 duration-300 shadow-md
+                                            `}
+                                            >
+                                                    <span className='text-[28px] lg:text-[14px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
+                                        </button></a>
                         </div>
                     </div>
-                </div>
+                
+                
+
             </div>
 
+            </div>
+            <div className="mt-6">
+                <span className="text-[24px] font-primary text-zinc-400">Pagamentos via <b>pix desconto de 5%</b> ou 2x no boleto.</span>
+            </div>
+            <div className="mt-10 mb-10">
+                <span className="text-[28px] font-primary">Copyright © 2024. Todos os direitos reservados.</span>
             </div>
         </section>
         
