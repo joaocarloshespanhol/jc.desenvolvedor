@@ -103,7 +103,7 @@ export default function Home () {
             <div className="mt-10">
                 <div className="flex flex-col justify-center items-center lg:flex-row gap-8">
 
-                <div className="w-[720px] h-[920px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
+                <div className="w-[720px] h-[1080px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
                     <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
                         <div className="text-[#051D34] font-extrabold mt-7">
                             Identidade Visual
@@ -148,11 +148,21 @@ export default function Home () {
                                 <img src={iconcheck}></img>
                                 Arquivos finais em formato vetorial
                             </div>
-
                         </div>
+                        <a href='https://api.whatsapp.com/send?phone=5516993074838&text=Ol%C3%A1,%20quero%20solicitar%20um%20orçamento!'
+                                target='_blank'
+                                rel="noopener noreferrer">
+                        <button className={`
+                                            flex mx-auto mt-10 w-[560px] h-[98px] lg:w-[620px] lg:h-[60px] lg:mx-auto bg-white
+                                            rounded-full gap-4 items-center justify-center
+                                            hover:-translate-y-1 hover:scale-110 hover:bg-zinc-300 duration-300 shadow-md
+                                            `}
+                                            >
+                                                    <span className='text-[28px] lg:text-[14px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
+                                        </button></a>
                     </div>
-
-                </div>
+                    </div>
+                
                 <div className="w-[720px] h-[920px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
                     <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
                         <div className="text-[#051D34] font-extrabold mt-7">
