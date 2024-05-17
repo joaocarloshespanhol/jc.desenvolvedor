@@ -4,7 +4,7 @@ import { AppRoutes } from "./Routes";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
         <AppRoutes />
     </div>
     

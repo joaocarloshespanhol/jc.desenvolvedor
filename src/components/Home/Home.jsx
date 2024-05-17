@@ -77,7 +77,7 @@ export default function Home () {
                                         </button></a>
                         </div>
                         
-                        <div className="mt-32 w-[480px] h-1 rounded-3xl bg-gradient-to-r from-[#29ACD7] to-[#3C82E8] mx-auto"> </div>
+                        <div className="mt-32 lg:mt-20 w-[480px] h-1 rounded-3xl bg-gradient-to-r from-[#29ACD7] to-[#3C82E8] mx-auto"> </div>
             </div>
 
     
@@ -85,7 +85,7 @@ export default function Home () {
             <div id="pacotes" className="font-primary font-semibold text-[46px] text-white mt-20 text-center mx-auto">
                         
                             <div className="flex justify-center mx-auto gap-6">
-                            <h1 className="font-semibold">
+                            <h1 className="font-semibold lg:text-[38px] xl:text-[42px]">
                                 Preços de pacotes <b className="italic">especiais</b>
                             </h1>
                             <div>
@@ -93,7 +93,7 @@ export default function Home () {
                                 </img>
                             </div>
                             </div>
-                            <div className="text-[30px] lg:text-[20px] lg:text-end font-light text-zinc-300 text-start flex justify-center mx-auto">
+                            <div className="text-[30px] lg:text-[16px] lg:text-end font-light text-zinc-300 text-start flex justify-center mx-auto">
                                 <span>Escolha o pacote ideal para você. <br/>
                                 E se precisar de preços para serviços específicos<br/>
                                 ou qualquer dúvida, é só entrar em contato!</span>
@@ -101,51 +101,51 @@ export default function Home () {
                         
                     </div>
             <div className="mt-10">
-                <div className="flex flex-col justify-center items-center lg:flex-row gap-8">
+                <div className="flex flex-col justify-center items-center lg:flex-row gap-8 lg:gap-2 xl:gap-8">
 
-                <div className="w-[720px] h-[1080px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
-                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
-                        <div className="text-[#051D34] font-extrabold mt-7">
+                <div className="w-[720px] h-[1080px] lg:w-[320px] lg:h-[480px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] lg:h-[60px] font-primary text-[42px] lg:text-[20px]">
+                        <div className="text-[#051D34] font-extrabold mt-7 lg:mt-4 ">
                             Identidade Visual
                         </div>
-                        <div className="mt-20 text-[98px] font-extrabold">
-                            <span className="text-[48px]">R$</span> 199,99
+                        <div className="mt-20 lg:mt-8 text-[98px] lg:text-[32px] xl:text-[42px] font-extrabold">
+                            <span className="text-[48px] lg:text-[12px]">R$</span> 199,99
                         </div>
-                        <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                        <div className="flex flex-col items-start mx-20 gap-8 lg:gap-2 xl:gap-3 lg:w-full lg:mx-6 mt-6 text-zinc-300">
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Logotipo (Desenvolvimento de 2 opções)
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Sublogotipo (Marca d’agua)
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Paleta de cores
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Tipografia
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Papel timbrado
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Cartão de visitas
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Rodadas de revisões e ajustes
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Arquivos finais em formato vetorial
                             </div>
                         </div>
@@ -153,61 +153,61 @@ export default function Home () {
                                 target='_blank'
                                 rel="noopener noreferrer">
                                         <button className={`
-                                            flex mx-auto mt-10 w-[560px] h-[98px] lg:w-[620px] lg:h-[60px] lg:mx-auto bg-white
+                                            flex mx-auto mt-10 xl:mt-6 w-[560px] h-[98px] lg:w-[180px] lg:h-[40px] xl:w-[260px] xl:h-[40px] lg:mx-auto bg-white
                                             rounded-full gap-4 items-center justify-center
                                             hover:-translate-y-1 hover:scale-110 hover:bg-zinc-300 duration-300 shadow-md
                                             `}
                                             >
-                                                    <span className='text-[28px] lg:text-[14px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
+                                                    <span className='text-[28px] xl:text-[12px] lg:text-[10px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
                                         </button></a>
                         </div>
                     </div>
-                <div className="w-[740px] h-[1100px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
-                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
-                        <div className="text-[#051D34] font-extrabold mt-7">
+                <div className="w-[740px] h-[1100px] lg:w-[360px] lg:h-[490px] xl:w-[370px] xl:h-[520px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] lg:h-[60px] font-primary text-[42px] lg:text-[20px]">
+                        <div className="text-[#051D34] font-extrabold mt-7 lg:mt-4">
                             Identidade Visual + Site
                         </div>
-                        <div className="mt-20 text-[98px] font-extrabold">
-                            <span className="text-[48px]">R$</span> 539,99
+                        <div className="mt-20 lg:mt-8 text-[98px] lg:text-[32px] xl:text-[42px] font-extrabold">
+                            <span className="text-[48px] lg:text-[12px]">R$</span> 539,99
                         </div>
-                        <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                        <div className="flex flex-col items-start mx-20 gap-8 lg:gap-2 xl:gap-3 lg:w-full lg:mx-6 mt-6 text-zinc-300">
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Logotipo e Sublogotipo (3 opções)
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Paleta de cores e tipografia
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Papel timbrado e cartão de visitas
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Site para até 5 páginas
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Design responsivo e moderno
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Pesquisa de referência e conceitos
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Demonstração do Google Analytics
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Otimização para mecanismos de busca
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Rodadas de revisões e ajustes
                             </div>
                         </div>
@@ -215,58 +215,58 @@ export default function Home () {
                                 target='_blank'
                                 rel="noopener noreferrer">
                                         <button className={`
-                                            flex mx-auto mt-10 w-[560px] h-[98px] lg:w-[620px] lg:h-[60px] lg:mx-auto bg-white
+                                            flex mx-auto mt-10 xl:mt-6 w-[560px] h-[98px] lg:w-[180px] lg:h-[40px] xl:w-[260px] xl:h-[40px] lg:mx-auto bg-white
                                             rounded-full gap-4 items-center justify-center
                                             hover:-translate-y-1 hover:scale-110 hover:bg-zinc-300 duration-300 shadow-md
                                             `}
                                             >
-                                                    <span className='text-[28px] lg:text-[14px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
+                                                    <span className='text-[28px] xl:text-[12px] lg:text-[10px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
                                         </button></a>
                         </div>
                     </div>
-                <div className="w-[720px] h-[1080px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col">
-                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] font-primary text-[42px]">
-                        <div className="text-[#051D34] font-extrabold mt-7">
+                <div className="w-[720px] h-[1080px] lg:w-[320px] lg:h-[480px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] lg:h-[60px] font-primary text-[42px] lg:text-[20px]">
+                        <div className="text-[#051D34] font-extrabold mt-7 lg:mt-4">
                             Site ou Landing Page
                         </div>
-                        <div className="mt-20 text-[98px] font-extrabold">
-                            <span className="text-[48px]">R$</span> 399,99
+                        <div className="mt-20 lg:mt-8 text-[98px] lg:text-[32px] xl:text-[42px] font-extrabold">
+                            <span className="text-[48px] lg:text-[12px]">R$</span> 399,99
                         </div>
-                        <div className="flex flex-col items-start mx-20 gap-8 mt-6 text-zinc-300">
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                        <div className="flex flex-col items-start mx-20 gap-8 lg:gap-2 xl:gap-3 lg:w-full lg:mx-6 mt-6 text-zinc-300">
+                            <div className="flex text-[24px] lg:text-[12px]  gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                     Design responsivo e moderno
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                     Pesquisa de referência e conceitos
 
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Integração com redes sociais
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Otimização para mecanismos de busca  
 
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Tags instaladas para métricas
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Site para até 3 páginas
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Reuniões para alinhar espectativas
                             </div>
-                            <div className="flex text-[24px] gap-4">
-                                <img src={iconcheck}></img>
+                            <div className="flex text-[24px] lg:text-[12px] gap-4">
+                                <img className="lg:w-3"src={iconcheck}></img>
                                 Rodadas de revisão e ajustes
                             </div>
                         </div>
@@ -274,12 +274,12 @@ export default function Home () {
                                 target='_blank'
                                 rel="noopener noreferrer">
                                         <button className={`
-                                            flex mx-auto mt-10 w-[560px] h-[98px] lg:w-[620px] lg:h-[60px] lg:mx-auto bg-white
+                                            flex mx-auto mt-10 xl:mt-6 w-[560px] h-[98px] lg:w-[180px] lg:h-[40px] xl:w-[260px] xl:h-[40px] lg:mx-auto bg-white
                                             rounded-full gap-4 items-center justify-center
                                             hover:-translate-y-1 hover:scale-110 hover:bg-zinc-300 duration-300 shadow-md
                                             `}
                                             >
-                                                    <span className='text-[28px] lg:text-[14px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
+                                                    <span className='text-[28px] xl:text-[12px] lg:text-[10px] text-[#051D34] font-primary font-bold'>Pedir info pelo whatsapp</span>
                                         </button></a>
                         </div>
                     </div>
@@ -290,10 +290,10 @@ export default function Home () {
 
             </div>
             <div className="mt-6">
-                <span className="text-[24px] font-primary text-zinc-400">Pagamentos via <b>pix desconto de 5%</b> ou 2x no boleto.</span>
+                <span className="text-[24px] lg:text-[18px] font-primary text-zinc-400">Pagamentos via <b>pix desconto de 5%</b> ou 2x no boleto.</span>
             </div>
             <div className="mt-10 mb-2">
-                <span className="text-[28px] font-primary">Copyright © 2024. Todos os direitos reservados.</span>
+                <span className="text-[28px] lg:text-[12px] font-primary">Copyright © 2024. Todos os direitos reservados.</span>
             </div>
         </section>
         
