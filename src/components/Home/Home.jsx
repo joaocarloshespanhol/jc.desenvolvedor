@@ -100,8 +100,8 @@ export default function Home () {
                             </div>
                         
                     </div>
-            <div className="mt-10">
-                <div className="flex flex-col justify-center items-center lg:flex-row gap-8 lg:gap-2 xl:gap-2">
+            <div className="mt-20">
+                <div className="flex flex-col justify-center items-center lg:flex-row gap-32 lg:gap-2 xl:gap-8">
 
                 <div className="w-[720px] h-[1080px] lg:w-[320px] lg:h-[480px] bg-gradient-to-r from-[#8E6DE7] to-[#3C82E8] rounded-3xl shadow-2xl flex flex-col hover:-translate-y-1 hover:scale-110 duration-300">
                     <div className="w-full bg-white rounded-t-3xl box-shadow h-[120px] lg:h-[60px] font-primary text-[42px] lg:text-[20px]">
@@ -289,11 +289,11 @@ export default function Home () {
             </div>
 
             </div>
-            <div className="mt-6">
-                <span className="text-[24px] lg:text-[18px] font-primary text-zinc-400">Pagamentos via <b>pix desconto de 5%</b> ou 2x no boleto.</span>
+            <div className="mt-20">
+                <span className="text-[28px] lg:text-[18px] font-primary text-zinc-400">Pagamentos via <b>pix desconto de 5%</b> ou 2x no boleto.</span>
             </div>
             <div className="mt-10 mb-2">
-                <span className="text-[28px] lg:text-[12px] font-primary">Copyright © 2024. Todos os direitos reservados.</span>
+                <span className="text-[24px] lg:text-[12px] font-primary">Copyright © 2024. Todos os direitos reservados.</span>
             </div>
         </section>
         
