@@ -271,7 +271,7 @@ export default function Home () {
                             </div>
                             <div className="flex text-[24px] lg:text-[12px] gap-4">
                                 <img className="lg:w-3"src={iconcheck}></img>
-                                Reuniões para alinhar espectativas
+                                Reuniões para alinhar expectativas
                             </div>
                             <div className="flex text-[24px] lg:text-[12px] gap-4">
                                 <img className="lg:w-3"src={iconcheck}></img>
