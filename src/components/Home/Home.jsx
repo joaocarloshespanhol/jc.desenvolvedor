@@ -110,7 +110,7 @@ export default function Home () {
                             Identidade Visual
                         </div>
                         <div className="mt-20 lg:mt-8 text-[98px] lg:text-[32px] xl:text-[42px] font-extrabold">
-                            <span className="text-[48px] lg:text-[12px]">R$</span> 199,99
+                            <span className="text-[48px] lg:text-[12px]">R$</span> 319,99
                         </div>
                         <div className="flex flex-col items-start mx-20 gap-8 lg:gap-2 xl:gap-3 lg:w-full lg:mx-6 mt-6 text-zinc-300">
                             <div className="flex text-[24px] lg:text-[12px] gap-4">
@@ -176,7 +176,7 @@ export default function Home () {
                         </div>
                     
                         <div className="mt-20 lg:mt-8 text-[98px] lg:text-[32px] xl:text-[42px] font-extrabold">
-                            <span className="text-[48px] lg:text-[12px]">R$</span> 539,99
+                            <span className="text-[48px] lg:text-[12px]">R$</span> 780,00
                         </div>
                         <div className="flex flex-col items-start mx-20 gap-8 lg:gap-2 xl:gap-3 lg:w-full lg:mx-6 mt-6 text-zinc-300">
                             <div className="flex text-[24px] lg:text-[12px] gap-4">
@@ -238,7 +238,7 @@ export default function Home () {
                             Site ou Landing Page
                         </div>
                         <div className="mt-20 lg:mt-8 text-[98px] lg:text-[32px] xl:text-[42px] font-extrabold">
-                            <span className="text-[48px] lg:text-[12px]">R$</span> 399,99
+                            <span className="text-[48px] lg:text-[12px]">R$</span> 639,99
                         </div>
                         <div className="flex flex-col items-start mx-20 gap-8 lg:gap-2 xl:gap-3 lg:w-full lg:mx-6 mt-6 text-zinc-300">
                             <div className="flex text-[24px] lg:text-[12px]  gap-4">
